@@ -6,12 +6,11 @@ import { AddressDto } from './address.dto';
 
 export class UserDto {
 	
-	@MaxLength(3)
 	@ApiProperty({
 		description: 'title description',
-		required: false
+		required: true
 	})
-	title ?: string;
+	title : string;
 
 	@Max(10)
 	@IsPositive()

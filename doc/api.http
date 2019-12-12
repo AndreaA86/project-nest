@@ -11,5 +11,11 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "title2" : "test"
+    "title2" : "te",
+    "age" : 3,
+    "addresses" : [
+        {
+            "description" : "test"
+        }
+    ]
 }
