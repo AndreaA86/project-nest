@@ -1,0 +1,15 @@
+@domain = http://localhost:3000
+
+
+GET {{domain}}
+Accept: application/json
+
+###
+
+POST {{domain}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title2" : "test"
+}
