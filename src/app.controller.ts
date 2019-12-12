@@ -12,7 +12,7 @@ export class AppController {
   }
 
   @Post()
-  @UsePipes(new ValidationPipe({ transform: true }))
+  // @UsePipes(new ValidationPipe({ transform: true }))
   postHello(@Body() user: UserDto): string {
     console.log(user);
     return "ciao";
